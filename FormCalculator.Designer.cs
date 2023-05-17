@@ -175,7 +175,7 @@
             this.labelAns.Name = "labelAns";
             this.labelAns.Size = new System.Drawing.Size(230, 51);
             this.labelAns.TabIndex = 1;
-            this.labelAns.Text = "15";
+            this.labelAns.Text = " ";
             this.labelAns.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2Panel2
@@ -202,7 +202,7 @@
             this.labelEqn.Name = "labelEqn";
             this.labelEqn.Size = new System.Drawing.Size(230, 33);
             this.labelEqn.TabIndex = 0;
-            this.labelEqn.Text = "6+9";
+            this.labelEqn.Text = " ";
             this.labelEqn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btn0
@@ -895,7 +895,7 @@
             this.btnMR.Text = "MR";
             this.btnMR.UseTransparentBackground = true;
             // 
-            // Form1
+            // FormCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -903,8 +903,10 @@
             this.ClientSize = new System.Drawing.Size(238, 403);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.textPanel);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormCalculator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.textPanel.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);

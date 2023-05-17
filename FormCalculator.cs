@@ -15,10 +15,13 @@ namespace Calculator
         public FormCalculator()
         {
             InitializeComponent();
+            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             // Add event handlers to your buttons
             btn0.Click += NumberButton_Click;
             btn1.Click += NumberButton_Click;
@@ -32,8 +35,10 @@ namespace Calculator
             btn9.Click += NumberButton_Click;
             btnDot.Click += NumberButton_Click;
             btnPercent.Click += NumberButton_Click;
+
             btnC.Click += btnC_Click;
             btnCE.Click += btnCE_Click;
+
             btnMC.Click += btnMC_Click;
             btnMR.Click += btnMR_Click;
             btnMPlus.Click += btnMPlus_Click;
@@ -160,12 +165,13 @@ namespace Calculator
         {
             firstOperand = mem.ToString();
             labelEqn.Text = firstOperand;
+            labelAns.Text = firstOperand;
         }
 
         private void btnMPlus_Click(object sender, EventArgs e)
         {
             double value;
-            if (double.TryParse(labelEqn.Text, out value))
+            if (double.TryParse(labelAns.Text, out value))
             {
                 mem += value;
             }
@@ -174,10 +180,11 @@ namespace Calculator
         private void btnMMinus_Click(object sender, EventArgs e)
         {
             double value;
-            if (double.TryParse(labelEqn.Text, out value))
+            if (double.TryParse(labelAns.Text, out value))
             {
                 mem -= value;
             }
+
         }
         private void ClearEquation()
         {
