@@ -82,13 +82,13 @@ namespace Calculator
         private void buttonMinimize_Click(object sender, EventArgs e)
         {
             // Animate the form out
-            AnimateWindow(this.Handle, 100, AW_VER_NEGATIVE | AW_SLIDE | AW_BLEND);
+            AnimateWindow(this.Handle, 200, AW_VER_NEGATIVE | AW_SLIDE | AW_HIDE);
 
             // Minimize the form
             this.WindowState = FormWindowState.Minimized;
 
             // Show the form on the taskbar
-            //this.ShowInTaskbar = true;
+            this.ShowInTaskbar = true;
 
            
         }
