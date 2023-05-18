@@ -70,18 +70,18 @@
             // 
             this.buttonMinimize.AnimatedGIF = true;
             this.buttonMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.buttonMinimize.CheckedState.Image = global::Calculator_Suva.Properties.Resources.rsz_image_removebg_preview;
+            this.buttonMinimize.CheckedState.Image = global::Calculator.Properties.Resources.rsz_image_removebg_preview;
             this.buttonMinimize.CheckedState.ImageSize = new System.Drawing.Size(10, 10);
             this.buttonMinimize.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonMinimize.HoverState.Image = global::Calculator_Suva.Properties.Resources.mac_mini1;
+            this.buttonMinimize.HoverState.Image = global::Calculator.Properties.Resources.mac_mini1;
             this.buttonMinimize.HoverState.ImageSize = new System.Drawing.Size(12, 12);
-            this.buttonMinimize.Image = global::Calculator_Suva.Properties.Resources.mini;
+            this.buttonMinimize.Image = global::Calculator.Properties.Resources.mini;
             this.buttonMinimize.ImageOffset = new System.Drawing.Point(0, 0);
             this.buttonMinimize.ImageRotate = 0F;
             this.buttonMinimize.ImageSize = new System.Drawing.Size(10, 10);
             this.buttonMinimize.Location = new System.Drawing.Point(216, 0);
             this.buttonMinimize.Name = "buttonMinimize";
-            this.buttonMinimize.PressedState.Image = global::Calculator_Suva.Properties.Resources.mini;
+            this.buttonMinimize.PressedState.Image = global::Calculator.Properties.Resources.mini;
             this.buttonMinimize.PressedState.ImageSize = new System.Drawing.Size(10, 10);
             this.buttonMinimize.ShadowDecoration.CustomizableEdges = customizableEdges3;
             this.buttonMinimize.Size = new System.Drawing.Size(13, 12);
@@ -93,18 +93,18 @@
             // guna2ImageButtonClose
             // 
             this.guna2ImageButtonClose.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButtonClose.CheckedState.Image = global::Calculator_Suva.Properties.Resources.macClose;
+            this.guna2ImageButtonClose.CheckedState.Image = global::Calculator.Properties.Resources.macClose;
             this.guna2ImageButtonClose.CheckedState.ImageSize = new System.Drawing.Size(10, 10);
             this.guna2ImageButtonClose.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2ImageButtonClose.HoverState.Image = global::Calculator_Suva.Properties.Resources.mac_close1;
+            this.guna2ImageButtonClose.HoverState.Image = global::Calculator.Properties.Resources.mac_close1;
             this.guna2ImageButtonClose.HoverState.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2ImageButtonClose.Image = global::Calculator_Suva.Properties.Resources.macClose;
+            this.guna2ImageButtonClose.Image = global::Calculator.Properties.Resources.macClose;
             this.guna2ImageButtonClose.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButtonClose.ImageRotate = 0F;
             this.guna2ImageButtonClose.ImageSize = new System.Drawing.Size(10, 10);
             this.guna2ImageButtonClose.Location = new System.Drawing.Point(229, 0);
             this.guna2ImageButtonClose.Name = "guna2ImageButtonClose";
-            this.guna2ImageButtonClose.PressedState.Image = global::Calculator_Suva.Properties.Resources.macClose;
+            this.guna2ImageButtonClose.PressedState.Image = global::Calculator.Properties.Resources.macClose;
             this.guna2ImageButtonClose.PressedState.ImageSize = new System.Drawing.Size(10, 10);
             this.guna2ImageButtonClose.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.guna2ImageButtonClose.Size = new System.Drawing.Size(13, 12);
