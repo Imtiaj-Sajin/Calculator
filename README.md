@@ -1,5 +1,7 @@
 # Calculator
 This calculator is made using C# (winForms). 1st release will be published as soon as possible.
+# Download
+Calculator v0.1.0 [Download](https://github.com/Imtiaj-Sajin/Calculator/releases/tag/0.1.0)
 
 <h2>Snaps: </h2>
 
